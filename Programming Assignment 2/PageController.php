@@ -12,5 +12,9 @@ class PageController extends Controller
 	public function greet($name)
 	{
 		return "Hello from ". $name;
+	}
+	public function index()
+	{
+		return "Hello from index page";
 	}	
 }
